@@ -1,0 +1,202 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Dana Perelmuter\\source\\repos\\AseguraYA-Back\\AseguraYA-Back.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Dana Perelmuter\\source\\repos\\AseguraYA-Back\\AseguraYA-Back.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dana Perelmuter\\source\\repos\\AseguraYA-Back\\AseguraYA-Back.csproj",
+        "projectName": "AseguraYA-Back",
+        "projectPath": "C:\\Users\\Dana Perelmuter\\source\\repos\\AseguraYA-Back\\AseguraYA-Back.csproj",
+        "packagesPath": "C:\\Users\\Dana Perelmuter\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dana Perelmuter\\source\\repos\\AseguraYA-Back\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dana Perelmuter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_BE\\686DP_BE.csproj": {
+                "projectPath": "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_BE\\686DP_BE.csproj"
+              },
+              "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_BLL\\686DP_BLL.csproj": {
+                "projectPath": "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_BLL\\686DP_BLL.csproj"
+              },
+              "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_SERVICIOS\\686DP_SERVICIOS.csproj": {
+                "projectPath": "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_SERVICIOS\\686DP_SERVICIOS.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.1.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_BE\\686DP_BE.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_BE\\686DP_BE.csproj",
+        "projectName": "686DP_BE",
+        "projectPath": "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_BE\\686DP_BE.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_BLL\\686DP_BLL.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_BLL\\686DP_BLL.csproj",
+        "projectName": "686DP_BLL",
+        "projectPath": "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_BLL\\686DP_BLL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_BE\\686DP_BE.csproj": {
+                "projectPath": "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_BE\\686DP_BE.csproj"
+              },
+              "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_MPP\\686DP_MPP.csproj": {
+                "projectPath": "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_MPP\\686DP_MPP.csproj"
+              },
+              "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_SERVICIOS\\686DP_SERVICIOS.csproj": {
+                "projectPath": "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_SERVICIOS\\686DP_SERVICIOS.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_Dal\\686DP_DAL.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_Dal\\686DP_DAL.csproj",
+        "projectName": "686DP_DAL",
+        "projectPath": "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_Dal\\686DP_DAL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_BE\\686DP_BE.csproj": {
+                "projectPath": "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_BE\\686DP_BE.csproj"
+              },
+              "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_SERVICIOS\\686DP_SERVICIOS.csproj": {
+                "projectPath": "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_SERVICIOS\\686DP_SERVICIOS.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_MPP\\686DP_MPP.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_MPP\\686DP_MPP.csproj",
+        "projectName": "686DP_MPP",
+        "projectPath": "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_MPP\\686DP_MPP.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_BE\\686DP_BE.csproj": {
+                "projectPath": "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_BE\\686DP_BE.csproj"
+              },
+              "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_Dal\\686DP_DAL.csproj": {
+                "projectPath": "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_Dal\\686DP_DAL.csproj"
+              },
+              "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_SERVICIOS\\686DP_SERVICIOS.csproj": {
+                "projectPath": "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_SERVICIOS\\686DP_SERVICIOS.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_SERVICIOS\\686DP_SERVICIOS.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_SERVICIOS\\686DP_SERVICIOS.csproj",
+        "projectName": "686DP_SERVICIOS",
+        "projectPath": "D:\\Proyects\\AseguraYA\\Codigo\\AseguraYa\\686DP_SERVICIOS\\686DP_SERVICIOS.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
